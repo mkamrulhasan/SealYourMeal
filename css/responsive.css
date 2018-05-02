@@ -1,0 +1,254 @@
+/*==== Extra large (For Laptop & Desktop)  =======*/
+
+@media (min-width:1200px) {}
+
+/*==== Large Device (For Landscape Tablet & Medium Desktop)  =======*/
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    .nav-custom a {
+        font-size: 19px;
+    }
+
+    .navlink-custom {
+        margin-right: 40px;
+    }
+    
+    #work-item{
+        margin-top: 35px;
+    }
+    .modal-content {
+    width: 60%;
+}
+
+}
+
+
+/*==== Mediam Device (For Tablet)  =======*/
+
+@media (min-width: 768px) and (max-width:991px) {
+     .nav-custom a {
+        font-size: 19px;
+    }
+.navlink-custom {
+    margin-left: 30px;;
+}
+    #work-item{
+        margin-top: 200px;
+    }
+    
+    .home-inner {
+    width: 70%;
+    margin-left: 60px;
+    padding-top: 140px;
+}
+      .modal-content {
+    margin: 12% auto 15% auto;
+   
+}
+       .modal-content {
+    width: 70%;
+}
+}
+
+/*==== Small Device (For Tablet)  =======*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+     .nav-custom a {
+        font-size: 19px;
+    }
+.navlink-custom {
+    margin-left: 30px;;
+}
+    
+    .home-inner {
+    width: 80%;
+    margin-left: 60px;
+    padding-top: 140px;
+}
+      .modal-content {
+    margin: 15% auto 15% auto;
+   
+}
+       .modal-content {
+    width: 80%;
+}
+}
+
+/*==== Extra Small Device   =======*/
+
+@media (min-width: 320px) and (max-width: 575px) {
+         .nav-custom a {
+        font-size: 19px;
+    }
+.navlink-custom {
+    margin-left: 30px;;
+}
+    
+    .home-inner {
+    width: 95%;
+    margin-left: 10px;
+    padding-top: 100px;
+}
+    .home-inner h2 {
+    font-size: 25px;
+}
+    .home-inner p {
+    font-size: 15px;
+    padding-right: 10px;
+}
+    .home-btn-right {
+    padding-left: 0px;
+}
+    .home-btn img {
+        margin: 8px auto;
+}
+    .section-title {
+    font-size: 35px;
+}
+    .work-item-box h3 {
+    font-size: 20px;
+}
+
+.work-item-box p {
+    font-size: 15px;
+}
+    .modal-content {
+    margin: 20% auto 15% auto;
+   
+}
+input[type=text],
+input[type=email],
+input[type=number] {
+    width: 97%;
+    margin: 8px 5px;
+    }
+
+.form-lb {
+    margin: 10px 0px 0 5px;
+}
+
+       .modal-content {
+    width: 90%;
+}
+    .close {
+    right: 15px;
+    font-size: 25px;
+}
+    .imgcontainer h1{
+        font-size: 27px;
+    } 
+     .imgcontainer p{
+        font-size: 15px;
+    } 
+    .contact-btn-pop {
+    padding: 8px 12px;
+    margin: 8px 10px;
+    font-size: 20px;
+}
+#footer-menu {
+    font-size: 12px;
+    max-width: 280px;
+}
+
+#footer-menu a {
+    margin: 0 7px;
+}
+    .content-title-underline {
+    width: 90%;
+}
+}
+
+
+/*==== Extra Small Device   =======*/
+
+@media (max-width: 319px) {
+            .nav-custom a {
+        font-size: 19px;
+    }
+.navlink-custom {
+    margin-left: 30px;;
+}
+    .navbar-brand{
+        width: 130px;
+        height: 35px;
+    }
+    .navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+    
+    .home-inner {
+    width: 100%;
+    margin-left: 10px;
+    padding-top: 100px;
+}
+    .home-inner h2 {
+    font-size: 22px;
+}
+    .home-inner p {
+    font-size: 14px;
+    padding-right: 10px;
+}
+    .home-btn-right {
+    padding-left: 0px;
+}
+    .home-btn img {
+        margin: 4px auto;
+}
+    .section-title {
+    font-size: 22px;
+}
+    .work-item-box h3 {
+    font-size: 18px;
+}
+
+.work-item-box p {
+    font-size: 13px;
+}
+    .modal-content {
+    margin: 20% auto 15% auto;
+   
+}
+input[type=text],
+input[type=email],
+input[type=number] {
+    width: 99%;
+    margin: 8px 2px;
+    }
+
+.form-lb {
+    margin: 10px 0px 0 2px;
+}
+
+       .modal-content {
+    width: 95%;
+}
+    .close {
+    right: 15px;
+    font-size: 25px;
+}
+    .imgcontainer h1{
+        font-size: 22px;
+    } 
+     .imgcontainer p{
+        font-size: 12px;
+    } 
+    .contact-btn-pop {
+    padding: 8px 12px;
+    margin: 8px 8px;
+    font-size: 12px;
+}
+#footer-menu {
+    font-size: 12px;
+    max-width: 280px;
+}
+
+#footer-menu a {
+    font-size: 12px;
+    margin: 0 4px;
+}
+    .content-title-underline {
+    width: 95%;
+}
+}
